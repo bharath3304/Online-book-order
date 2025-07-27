@@ -1,0 +1,61 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  background: aqua;
+}
+
+header {
+  background-color: blue;
+  color:white;
+  padding: 20px;
+  text-align: center;
+}
+.store {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.book {
+  background: #e0f7fa;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+
+
+button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+.cart {
+  background: #f2f2f2;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart li {
+  padding: 5px 0;
+}

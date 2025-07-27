@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Online Book Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Online Book Store</h1>
+  </header>
+
+  <section class="store">
+    <div class="book">
+      <h3>Java programming from zero to hero</h3>
+      <p>₹500</p>
+      <button onclick="addToCart('Java programming from zero to hero', 300)">Add to Cart</button>
+    </div>
+    <div class="book">
+      <h3>HTML & CSS Full cource</h3>
+      <p>₹350</p>
+      <button onclick="addToCart('HTML & CSS Full cource', 250)">Add to Cart</button>
+    </div>
+    <div class="book">
+      <h3>Python full stack</h3>
+      <p>₹750</p>
+      <button onclick="addToCart('Python full stack', 350)">Add to Cart</button>
+    </div>
+    <div class="book">
+      <h3>Data Structures using java</h3>
+      <p>₹850</p>
+      <button onclick="addToCart('Data Structures using java', 400)">Add to Cart</button>
+    </div>
+  </section>
+
+  <section class="cart">
+    <h2>Cart</h2>
+    <ul id="cart-items"></ul>
+    <p id="total">Total: ₹0</p>
+    <button onclick="placeOrder()">Place Order</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
